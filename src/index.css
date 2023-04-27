@@ -18,16 +18,17 @@ body {
   display: flex;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #2a636b;
+  background-color: rgb(29 32 33);
   color: white;
 }
 
 /* style root div */
 #root{
-  background-image: url(https://imahttps://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80ges.htthttps://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80ps://images.unsplash.com/photo-1629172330068-82b6c74e3cc7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=327&q=80.com/photo-1487088678257-3a541e6e3922?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80);
-  width: 80%;
+ background-image: url(https://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  width: 100%;
   border-right: 1px solid #323232;
   border-left: 1px solid #323232;
+  background-size: cover;
 }
 
 /* style navbar component ---------------------------------*/
@@ -38,7 +39,7 @@ body {
   padding: 0px 20px;
   justify-content: space-between;
   border-bottom: 1px solid #323232;
-  background-color: rgb(60, 98, 113);
+  background-color: rgb(29 32 33);
 }
 .right-nav{
   display: flex;
