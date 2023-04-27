@@ -25,7 +25,7 @@ const Navbar = ({ name }) => {
   return (
     <>
       <div className="navbar">
-        <h3>
+        <h3 >
           {/* acording to time its shows morning,afternoon,evening and night */}
           {hour <= 12
             ? "Morning"
